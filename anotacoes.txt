@@ -1,0 +1,3 @@
+Pode-se usar *args para fazer o empacotamento de itens, quando por exemplo em um print teremos
+muitos valores e desejamos que a partir de tal valor, o resto seja empacotado. Usando essa função
+o itens empacotados ficaram em uma lista.
