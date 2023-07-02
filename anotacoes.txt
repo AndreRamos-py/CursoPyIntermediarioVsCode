@@ -1,3 +1,16 @@
+--------------------------------------------------------------------------------------------------------------
 Pode-se usar *args para fazer o empacotamento de itens, quando por exemplo em um print teremos
 muitos valores e desejamos que a partir de tal valor, o resto seja empacotado. Usando essa função
 o itens empacotados ficaram em uma lista.
+--------------------------------------------------------------------------------------------------------------
+Dicionários são estruturas de dados do tipo par de "chave" e "valor".
+# Chaves podem ser consideradas como o "índice"
+# que vimos na lista e podem ser de tipos imutáveis
+# como: str, int, float, bool, tuple, etc.
+# O valor pode ser de qualquer tipo, incluindo outro
+# dicionário.
+# Usamos as chaves - {} - ou a classe dict para criar
+# dicionários.
+# Imutáveis: str, int, float, bool, tuple
+# Mutável: dict, list
+--------------------------------------------------------------------------------------------------------------
