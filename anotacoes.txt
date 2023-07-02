@@ -1,8 +1,8 @@
---------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 Pode-se usar *args para fazer o empacotamento de itens, quando por exemplo em um print teremos
 muitos valores e desejamos que a partir de tal valor, o resto seja empacotado. Usando essa função
 o itens empacotados ficaram em uma lista.
---------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
 Dicionários são estruturas de dados do tipo par de "chave" e "valor".
 # Chaves podem ser consideradas como o "índice"
 # que vimos na lista e podem ser de tipos imutáveis
@@ -13,4 +13,20 @@ Dicionários são estruturas de dados do tipo par de "chave" e "valor".
 # dicionários.
 # Imutáveis: str, int, float, bool, tuple
 # Mutável: dict, list
---------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+Métodos úteis dos dicionários em Python:
+# len - quantas chaves
+# keys - iterável com as chaves
+# values - iterável com os valores
+# items - iterável com chaves e valores
+# setdefault - adiciona valor se a chave não existe
+# copy - retorna uma cópia rasa (shallow copy) - Nesse caso por exemplo, ele não copia valores mutaveis, e
+ao chamar o conteudo dict em outra variavel e mesmo com o copy, alterar um valor mutavel, a alteração
+ocorrerá tanto no dict original quanto na copia. Para que isso não aconteça temos a função Deepcopy
+importada de import copy.
+# Deepcopy - Faz uma copia completa, incluindo valores mutaveis
+# get - obtém uma chave
+# pop - Apaga um item com a chave especificada (del)
+# popitem - Apaga o último item adicionado
+# update - Atualiza um dicionário com outro
+------------------------------------------------------------------------------------------------------------
