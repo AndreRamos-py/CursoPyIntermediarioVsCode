@@ -48,3 +48,6 @@ Operadores úteis:
 # diferença: - Itens presentes apenas no set da esquerda
 # diferença simétrica: ^ - Itens que não estão em ambos
 ---------------------------------------------------------------------------------------------------------
+A função lambda é uma função como qualquer outra em Python. Porém, são funções anônimas que contém apenas
+uma linha. Ou seja, tudo deve ser contido dentro de uma única expressão.
+---------------------------------------------------------------------------------------------------------
