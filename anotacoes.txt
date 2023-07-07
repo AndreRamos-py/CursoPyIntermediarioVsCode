@@ -4,13 +4,10 @@ muitos valores e desejamos que a partir de tal valor, o resto seja empacotado. U
 o itens empacotados ficaram em uma lista.
 ---------------------------------------------------------------------------------------------------------
 Dicionários são estruturas de dados do tipo par de "chave" e "valor".
-# Chaves podem ser consideradas como o "índice"
-# que vimos na lista e podem ser de tipos imutáveis
-# como: str, int, float, bool, tuple, etc.
-# O valor pode ser de qualquer tipo, incluindo outro
-# dicionário.
-# Usamos as chaves - {} - ou a classe dict para criar
-# dicionários.
+# Chaves podem ser consideradas como o "índice" que vimos na lista e podem ser de tipos imutáveis como:
+str, int, float, bool, tuple, etc.
+O valor pode ser de qualquer tipo, incluindo outro dicionário. Usamos as chaves - {} - ou a classe dict
+para criar dicionários.
 # Imutáveis: str, int, float, bool, tuple
 # Mutável: dict, list
 ---------------------------------------------------------------------------------------------------------
@@ -30,7 +27,7 @@ importada de import copy.
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 ---------------------------------------------------------------------------------------------------------
-Sets - Conjuntos em Python (tipo set)
+Sets - Conjuntos em Python (tipo set)  #UMA SACOLA QUE VAI JOGANDO AS COISAS E ELAS FICAM DESORGANIZADAS
 # Sets em Python são mutáveis, porém aceitam apenas tipos imutáveis como valor interno.
 # Sets são eficientes para remover valores duplicados de iteráveis.
 # - Não aceitam valores mutáveis
@@ -50,4 +47,9 @@ Operadores úteis:
 ---------------------------------------------------------------------------------------------------------
 A função lambda é uma função como qualquer outra em Python. Porém, são funções anônimas que contém apenas
 uma linha. Ou seja, tudo deve ser contido dentro de uma única expressão.
+---------------------------------------------------------------------------------------------------------
+*args - Argumentos não nomeados que podem ser usados nas funções.
+**kwargs - Argumentos nomeados que podem ser usados nas funções.
+---------------------------------------------------------------------------------------------------------
+List comprehension é uma forma rápida para criar listas a partir de iteráveis.
 ---------------------------------------------------------------------------------------------------------

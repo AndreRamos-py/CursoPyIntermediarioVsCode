@@ -31,8 +31,11 @@ chave = 'nome'
 pessoa[chave] = 'André Luis'
 pessoa['sobrenome'] = 'Ramos'
 
-
 print(pessoa[chave])
+
+print(pessoa)
+
+print('-'*10)
 
 pessoa[chave] = 'Eunice'
 
@@ -40,7 +43,9 @@ del pessoa['sobrenome']
 print(pessoa)
 print(pessoa['nome'])
 
-# print(pessoa.get('sobrenome'))
+print('-'*10)
+
+#print(pessoa.get('sobrenome'))
 if pessoa.get('sobrenome') is None:
     print('NÃO EXISTE')
 else:
